@@ -12,4 +12,4 @@ Feature: Account Management
 
     Examples:
       | Firstname | Lastname | Email           | Password | ConfirmPassword |
-      | Mark      | Jackson  | mjack@gmail.com | Test-123 | Test-123        |
+      | Mark      | Jackson  | mjack3@gmail.com | Test-123 | Test-123        |

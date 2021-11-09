@@ -67,7 +67,7 @@ formatter.examples({
       "cells": [
         "Mark",
         "Jackson",
-        "mjack@gmail.com",
+        "mjack3@gmail.com",
         "Test-123",
         "Test-123"
       ],
@@ -102,7 +102,7 @@ formatter.step({
 });
 formatter.step({
   "line": 7,
-  "name": "I enter \"Mark\" \"Jackson\" \"mjack@gmail.com\" \"Test-123\" \"Test-123\"",
+  "name": "I enter \"Mark\" \"Jackson\" \"mjack3@gmail.com\" \"Test-123\" \"Test-123\"",
   "matchedColumns": [
     0,
     1,
@@ -126,7 +126,7 @@ formatter.match({
   "location": "AccountManagementSteps.iAmCreateAnAccountPage()"
 });
 formatter.result({
-  "duration": 16886661251,
+  "duration": 23360203460,
   "status": "passed"
 });
 formatter.match({
@@ -140,36 +140,36 @@ formatter.match({
       "offset": 16
     },
     {
-      "val": "mjack@gmail.com",
+      "val": "mjack3@gmail.com",
       "offset": 26
     },
     {
       "val": "Test-123",
-      "offset": 44
+      "offset": 45
     },
     {
       "val": "Test-123",
-      "offset": 55
+      "offset": 56
     }
   ],
   "location": "AccountManagementSteps.iEnter(String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 1986775101,
+  "duration": 1876911775,
   "status": "passed"
 });
 formatter.match({
   "location": "AccountManagementSteps.iClickOnCreateAccount()"
 });
 formatter.result({
-  "duration": 94997,
+  "duration": 2180046724,
   "status": "passed"
 });
 formatter.match({
   "location": "AccountManagementSteps.accountCreationIsSuccessful()"
 });
 formatter.result({
-  "duration": 57998,
+  "duration": 115035137,
   "status": "passed"
 });
 });
